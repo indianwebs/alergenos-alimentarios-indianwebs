@@ -71,7 +71,8 @@ const IconoAlergenoButton = ({ isActive, value, onChange }) => {
 
   const insertIcon = (url, name) => {
     const imgNode = wp.richText.create({
-      html: `<img src="${url}" alt="${name}" style="width: 45px; height: 45px;" />`,
+      html: `<img src="${url}" alt="${name}" style="width: 45px; height: 45px; vertical-align: bottom; display: inline-block;" />
+`,
     });
 
     const newContent = wp.richText.insert(value, imgNode);
