@@ -14,7 +14,6 @@ Este plugin permite insertar iconos de alérgenos en el contenido de WordPress. 
   - El editor Gutenberg debe estar activado en WordPress.
 - **Sin Gutenberg**:
   - El plugin **Editor Clásico** debe estar instalado y activado para que funcione correctamente.
-- XAMPP o entorno de desarrollo local para pruebas (si es necesario).
 
 ## Instalación
 
