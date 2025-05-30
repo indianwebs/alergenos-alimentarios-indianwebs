@@ -110,5 +110,3 @@ Si deseas contribuir a este plugin o agregar nuevas funcionalidades, aquí está
 **Desarrollado por**: 林欧博 / IndianWebs
 
 ---
-
-Este es el archivo completo actualizado en formato Markdown. Si necesitas más cambios o ajustes, ¡dímelo!
