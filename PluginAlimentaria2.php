@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Alimentaria 2
+Plugin Name: Plugin Alimentaria 2
 Description: Plugin para insertar iconos de alérgenos en Gutenberg o en el editor clásico
 Version: 1.1
 Author: 林欧博
