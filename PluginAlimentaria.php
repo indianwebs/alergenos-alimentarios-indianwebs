@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Plguin Alergenos Alimentaria
+Plugin Name: Pluguin Alergenos Alimentaria
 Description: Plugin para insertar iconos de alérgenos en Gutenberg o en el editor clásico
 Version: 1.0
 Author: 林欧博
