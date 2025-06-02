@@ -3,13 +3,13 @@ import { RichTextToolbarButton } from "@wordpress/block-editor";
 import { Popover, TabPanel } from "@wordpress/components";
 import { useState, useRef } from "@wordpress/element";
 
-const iconPaths = miPluginData;
+const RutasAlergenos = miPluginData;
 
-const icons = {
+const IconoAlergenos = {
   cuadrada: [
     { name: "Apio", file: "apio.png" },
     { name: "Huevo", file: "huevo.png" },
-    { name: "Altramuces", file: "Altramuces.png" },
+    { name: "Altramuces", file: "altramuces.png" },
     { name: "Crustaceo", file: "crustaceo.png" },
     { name: "Cacahuete", file: "cacahuete.png" },
     { name: "Fruto de Cascara", file: "frutoCascara.png" },
@@ -24,7 +24,7 @@ const icons = {
   redonda: [
     { name: "Apio", file: "apio.png" },
     { name: "Huevo", file: "huevo.png" },
-    { name: "Altramuces", file: "Altramuces.png" },
+    { name: "Altramuces", file: "altramuces.png" },
     { name: "Crustaceo", file: "crustaceo.png" },
     { name: "Cacahuete", file: "cacahuete.png" },
     { name: "Fruto de Cascara", file: "frutoCascara1.png" },
@@ -39,7 +39,7 @@ const icons = {
   triangular: [
     { name: "Apio", file: "apio.png" },
     { name: "Huevo", file: "huevo.png" },
-    { name: "Altramuces", file: "Altramuces.png" },
+    { name: "Altramuces", file: "altramuces.png" },
     { name: "Crustaceo", file: "crustaceo.png" },
     { name: "Cacahuete", file: "cacahuete.png" },
     { name: "Fruto de Cascara", file: "frutoCascara.png" },
@@ -119,7 +119,7 @@ const IconoAlergenoButton = ({ isActive, value, onChange }) => {
                       justifyContent: "center",
                     }}
                   >
-                    {icons[tab.name].map((icon) => (
+                    {IconoAlergenos[tab.name].map((icon) => (
                       <div
                         key={icon.file}
                         style={{
@@ -151,13 +151,13 @@ const IconoAlergenoButton = ({ isActive, value, onChange }) => {
                           }
                           onClick={() =>
                             insertIcon(
-                              iconPaths[tab.name] + icon.file,
+                              RutasAlergenos[tab.name] + icon.file,
                               icon.name
                             )
                           }
                         >
                           <img
-                            src={iconPaths[tab.name] + icon.file}
+                            src={RutasAlergenos[tab.name] + icon.file}
                             alt={icon.name}
                             style={{ width: "36px", height: "36px" }}
                           />
