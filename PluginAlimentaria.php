@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Plguin Alergenos Alimentaria
+Plugin Name: Pluguin Alergenos Alimentaria
 Description: Plugin para insertar iconos de alérgenos en Gutenberg o en el editor clásico
 Version: 1.0
 Author: 林欧博
@@ -45,6 +45,7 @@ add_action('admin_init', 'mi_plugin_icono_editor_clasico');
 function mi_plugin_muestra_icono_clasico()
 {
     // Crear un objeto con las URLs de todas las imágenes
+    $img = plugins_url('icons/cat.jpg', __FILE__);
     $imagenes_icono = array(
         'Apio' => array(
             'cuadrada' => plugins_url('icons/cuadrada/apio.png', __FILE__),
