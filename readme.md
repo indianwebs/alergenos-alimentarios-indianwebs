@@ -1,4 +1,4 @@
-# Plugin de Iconos de Alérgenos con Gutenberg o sin Gutenberg
+# Iconos de Alérgenos con Gutenberg o sin Gutenberg
 
 Este plugin permite insertar iconos de alérgenos en el contenido de WordPress. Ofrece dos opciones de uso, dependiendo de si utilizas **Gutenberg** o no:
 
