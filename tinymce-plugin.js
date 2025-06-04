@@ -7,11 +7,9 @@
       icon: false,
       image: imagenes?.Gluten?.cuadrada,
       onclick: function () {
-        // Eliminar anteriores si existen
         const anterior = document.getElementById("popup-iconos-alergenos");
         if (anterior) anterior.remove();
 
-        // Crear ventana flotante
         const popup = document.createElement("div");
         popup.id = "popup-iconos-alergenos";
         popup.style.background = "white";
@@ -27,7 +25,6 @@
         popup.style.marginTop = "5px";
         popup.style.cursor = "move";
 
-        // Contenido del popup
         popup.innerHTML = `
           <div style="text-align: right;">
             <button id="cerrar-popup-iconos" style="
@@ -46,7 +43,6 @@
           <div id="contenedor-iconos-alergenos" style="display: flex; flex-wrap: wrap; justify-content: center;"></div>
         `;
 
-        // Añadir al DOM
         const boton = document.querySelector(
           '.tox-tbtn[title="Insertar icono alérgeno"]'
         );
@@ -57,7 +53,6 @@
           document.body.appendChild(popup);
         }
 
-        // Función para renderizar iconos según forma
         function renderizarIconosPorForma(formaSeleccionada) {
           const contenedor = popup.querySelector(
             "#contenedor-iconos-alergenos"
@@ -110,17 +105,14 @@
           });
         });
 
-        // Render por defecto: cuadrada
         renderizarIconosPorForma("cuadrada");
 
-        // Cerrar popup
         popup
           .querySelector("#cerrar-popup-iconos")
           .addEventListener("click", () => {
             popup.remove();
           });
 
-        // Cerrar al hacer clic fuera
         document.addEventListener("click", function cerrarAlClickFuera(e) {
           if (
             popup &&
@@ -133,7 +125,6 @@
           }
         });
 
-        // Hacer draggable
         (function hacerDraggable(popup) {
           let isDragging = false;
           let offsetX = 0;

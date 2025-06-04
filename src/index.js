@@ -59,11 +59,11 @@ const tabColors = {
   triangular: { background: "#3a6f35" },
 };
 
-const IconoAlergenoButton = ({ isActive, value, onChange }) => {
+const BotonAlergenos = ({ isActive, value, onChange }) => {
   const [isOpen, setOpen] = useState(false);
   const buttonRef = useRef(null);
 
-  const insertIcon = (url, name) => {
+  const PonerIcono = (url, name) => {
     const imgNode = wp.richText.create({
       html: `<img src="${url}" alt="${name}" style="width: 45px; height: 45px; vertical-align: bottom; display: inline-block;" />`,
     });
@@ -171,7 +171,7 @@ const IconoAlergenoButton = ({ isActive, value, onChange }) => {
                             borderRadius: "6px",
                           }}
                           onClick={() =>
-                            insertIcon(
+                            PonerIcono(
                               RutasAlergenos[tab.name] + icon.file,
                               icon.name
                             )
@@ -208,5 +208,5 @@ registerFormatType("mi-plugin/icono-alergeno", {
   title: "Insertar icono alérgeno",
   tagName: "span",
   className: null,
-  edit: IconoAlergenoButton,
+  edit: BotonAlergenos,
 });

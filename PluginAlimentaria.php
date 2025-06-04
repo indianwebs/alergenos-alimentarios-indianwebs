@@ -8,13 +8,11 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-// Verifica si Gutenberg está activo
 function ExisteGuternberg()
 {
     return function_exists('register_block_type');
 }
 
-// Carga el bloque React para Gutenberg
 function UtilizarGutenberg()
 {
     if (ExisteGuternberg()) {
@@ -39,10 +37,8 @@ function UtilizarEditorClasico($hook)
 {
     $post_id = isset($_GET['post']) ? intval($_GET['post']) : 0;
 
-    // Solo si el post está usando el editor clásico
     if (!function_exists('use_block_editor_for_post') || !use_block_editor_for_post($post_id)) {
 
-        // Array con las URLs de los iconos
         $imagenes_icono = array(
             'Apio' => array(
                 'cuadrada' => plugins_url('icons/cuadrada/apio.png', __FILE__),
