@@ -1,9 +1,11 @@
 <?php
 /*
-Plugin Name: Plugin Alergenos Alimentaria
-Description: Plugin para insertar iconos de alérgenos en Gutenberg o en el editor clásico
+Plugin Name: Iconos Alergenos Alimentaria
+Description: Inserta iconos de alérgenos en WordPress compatibles con Gutenberg y el editor clásico.
 Version: 1.1
-Author: 林欧博
+Author: IndianWebs
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Verifica si Gutenberg está activo
@@ -20,7 +22,8 @@ function UtilizarGutenberg()
             'mi-plugin-react-block',
             plugins_url('build/index.js', __FILE__),
             array('wp-blocks', 'wp-element', 'wp-editor', 'wp-components'),
-            filemtime(plugin_dir_path(__FILE__) . 'build/index.js')
+            filemtime(plugin_dir_path(__FILE__) . 'build/index.js'),
+            false
         );
 
         wp_localize_script('mi-plugin-react-block', 'miPluginData', array(
