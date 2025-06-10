@@ -1,4 +1,4 @@
-=== Iconos Alergenos Alimentaria ===
+=== Iconos Alérgenos Alimentarios ===
 Contributors: indianWebs
 Tags: alérgenos, iconos, gutenberg, accesibilidad, editor
 Requires at least: 4.7
