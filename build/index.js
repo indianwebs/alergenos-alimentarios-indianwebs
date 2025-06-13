@@ -526,7 +526,7 @@
       "mi-plugin/icono-alergeno",
       {
         title: "Insertar icono alérgeno",
-        tagName: "span",
+        tagName: "null",
         className: null,
         edit: IconoAlergenoButton,
       }
