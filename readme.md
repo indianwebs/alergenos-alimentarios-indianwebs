@@ -24,15 +24,6 @@ Este plugin permite insertar iconos de alérgenos en el contenido de WordPress. 
    - Descarga o clona este repositorio.
    - Sube la carpeta del plugin a la carpeta `wp-content/plugins/` de tu instalación de WordPress.
 
-2. **Instalar dependencias con npm**:
-
-   - Asegúrate de tener **Node.js** y **npm** instalados en tu entorno local.
-     - Si no tienes Node.js, puedes descargarlo desde [aquí](https://nodejs.org/).
-   - En la raíz de la carpeta del plugin, ejecuta el siguiente comando para instalar las dependencias necesarias:
-
-     ```bash
-     npm install
-     ```
 
 ### Opción 2: **Sin Gutenberg (Editor Clásico)**
 
@@ -106,6 +97,7 @@ Si deseas contribuir a este plugin o agregar nuevas funcionalidades, aquí está
 
 **Licencia**: Este plugin está bajo la [Licencia GPL v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 
-**Desarrollado por**: 林欧博 / IndianWebs
+**Desarrollado por**: [IndianWebs](https://indianwebs.com) / 林欧博
+
 
 ---
