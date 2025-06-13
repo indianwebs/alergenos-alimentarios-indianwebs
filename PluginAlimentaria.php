@@ -4,6 +4,7 @@ Plugin Name: Iconos Alérgenos Alimentarios
 Description: Inserta iconos de alérgenos en WordPress compatibles con Gutenberg y el editor clásico.
 Version: 1.0
 Author: IndianWebs / Lin
+Author Uri: http://indianwebs.com/
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */

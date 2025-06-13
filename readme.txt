@@ -1,9 +1,9 @@
 === Iconos Alérgenos Alimentarios ===
-Contributors: indianWebs
-Tags: alérgenos, iconos, gutenberg, accesibilidad, editor
+Contributors: IndianWebs
+Tags: Alergenos Alimentarios IndianWebs, indianwebs, alergenos, alérgenos, alimentarios, alergenos alimentarios, iconos, icons, alimentarios
 Requires at least: 4.7
 Tested up to: 6.8
-Stable tag: 1.0
+Stable tag: 1.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,7 +25,6 @@ Este plugin permite insertar iconos de alérgenos en el contenido de WordPress, 
 * PHP 5.6 o superior  
 
 Para uso con Gutenberg:  
-* Node.js y npm instalados  
 * Gutenberg activado  
 
 Para uso sin Gutenberg:  
@@ -65,6 +64,37 @@ Para uso sin Gutenberg:
 * `mi_plugin_muestra_icono_clasico()` – Genera HTML y estilos para el icono flotante.
 * `tinymce-plugin.js` – Añade el botón y el menú desplegable en TinyMCE.
 
+== Frequently Asked Questions ==
+
+
+
+= Nueva Ley de Información Alimentaria (Alérgenos) =
+
+
+
+La nueva Ley de Información Alimentaria (Alérgenos), recogida en el Reglamento Europeo 1169/2011 establece que todas las empresas operadoras de colectividades tendrán que informar de los alérgenos que contengan sus platos. A continuación, podrás consultar toda la información relevante para tu negocio.
+
+
+= Los 14 alérgenos de los que deberás informar =
+
+
+
+La nueva Ley de Información Alimentaria (Alérgenos) cuenta con un anexo en el que se listan todas las sustancias que suponen un riesgo para las personas que sufren alergias o intolerancias alimentarias. Recuerda que debes advertir de su presencia en los platos, aunque sólo exista la posibilidad de que haya trazas de alguno de ellos. A continuación, tienes disponible el listado de los 14 alérgenos de los que todo hostelero deberá informar:
+
+* Cereales que contengan gluten y productos derivados.
+* Crustáceos y productos a base de crustáceos.
+* Huevos y productos a base de huevo.
+* Pescado y productos a base de pescado.
+* Cacahuetes y productos a base de cacahuete.
+* Soja y productos a base de soja.
+* Leche y sus derivados (incluida la lactosa).
+* Frutos de cáscara (almendras, avellanas, nueces, y productos derivados).
+* Apio y productos derivados.
+* Mostaza y productos derivados.
+* Granos de sésamo y productos a base de granos de sésamo.
+* Anhídrido sulfuroso y sulfitos en concentraciones superiores a 10mg/kg.
+* Altramuces.
+
 == Desarrollo Futuro ==
 
 * Implementar una galería visual para elegir iconos.
@@ -80,18 +110,19 @@ Sí, modificando el array de imágenes en el archivo PHP.
 
 == Changelog ==
 
-= 1.1 =
-* Primera versión publicada en WordPress.org.
+= 1.2 =
+* Primera versión nueva publicada en WordPress.org.
 
 == Upgrade Notice ==
 
-= 1.1 =
-Primera versión estable del plugin.
+= 1.2 =
+Primera versión nueva estable del plugin.
 
 == Screenshots ==
 
-1. Inserción desde Gutenberg.
-2. Menú en el editor clásico.
+screenshot-1.png
+
+screenshot-2.png
 
 == Licencia ==
 
